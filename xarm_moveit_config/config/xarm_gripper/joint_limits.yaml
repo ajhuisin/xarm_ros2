@@ -3,6 +3,8 @@
 # Joint limits can be turned off with [has_velocity_limits, has_acceleration_limits]
 joint_limits:
   drive_joint:
+    has_position_limits: true
+    max_position: 0.84
     has_velocity_limits: true
     max_velocity: 3.14
     has_acceleration_limits: true
